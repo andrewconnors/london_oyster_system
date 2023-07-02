@@ -6,11 +6,7 @@
 
 
 ## How to run
-The project is packaged using distutils to try and make it easy to run for anyone. I also made
-a conscious effort to only use the standard library to avoid any issues with package versioning.
-
-I ran this with python3.11 installed via homebrew on a mac. I'm guessing it will work with anything >= python3.8.
-If I had more time, I would have set this up with a setup.py file but because of the simplicity of the libraries, you should be able to run this with vanilla python. The only non-vanilla package in here is sqlite3 but the database isn't used in the code, the reason it is there is explained in "Design Choices" below.
+I ran this with python3.11 installed via homebrew on a mac. I'm guessing it will work with anything >= python3.8. I made a concious effort to build this with only the standard library where possible to make it easy to run on any machine. If I had more time, I would have set this up with a setup.py file but because of the simplicity of the libraries, you should be able to run this with vanilla python. The only non-vanilla package in here is sqlite3 but the database isn't used in the code, the reason it is there is explained in "Design Choices" below.
 
 1. Clone this repository
 2. `cd` into the 'app' folder
