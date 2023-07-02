@@ -1,0 +1,26 @@
+{
+    "version": "0.1",
+    "last_updated": "07-01-2023",
+    "locations": [
+        {
+            "name": "Holburn",
+            "zone": [1]
+        },
+        {
+            "name": "Chelsea",
+            "zone": [1]
+        },
+        {
+            "name": "Earl’s Court ",
+            "zone": [1,2]
+        },
+        {
+            "name": "Wimbledon",
+            "zone": [3]
+        },
+        {
+            "name": "Hammersmith",
+            "zone": [2]
+        }
+    ]
+}
